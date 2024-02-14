@@ -1,5 +1,5 @@
 // shared components from scr folder
-import Container from "../src/shared/container/Container"
+import Container from "./shared/container/Container"
 
 
 // courousel images at line 168 - 201
@@ -13,7 +13,7 @@ import feed from "../src/images/feed.jpg";
 
 
 
-function App() {
+function Home() {
  
   return (
     <Container>
@@ -309,4 +309,4 @@ function App() {
     </Container>
   );
 }
-export default App;
+export default Home;
