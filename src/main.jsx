@@ -10,17 +10,12 @@ import './App.css'
 // const router = createBrowserRouter([
 //   {
 //     path: "/",
-//     element: <App/>,
+//     element: <Home/>,
 //   },
 //   {
 //     path: "/App",
-//     element: <App/>,
+//     element: <Home/>,
 //   },
-//   {
-//     path: "/*",
-//     element: <PagesNotFound/>
-//   },
-  
 // ]);
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
