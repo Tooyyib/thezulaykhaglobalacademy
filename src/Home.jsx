@@ -6,7 +6,13 @@ import Container from "./shared/container/Container"
 import speech1 from "../src/images/speech1.jpg";
 import speech2 from "../src/images/speech2.jpg";
 import quote1 from "../src/images/quote1.jpg";
-import feed from "../src/images/feed.jpg";
+import feed1 from "../src/images/feed1.jpeg";
+import feed2 from "../src/images/feed2.jpeg";
+import reverts from "../src/images/reverts.jpeg";
+import heroes from "../src/images/heroes.jpeg";
+import ramahif from "../src/images/ramahif.jpeg";
+
+
 
 
 
@@ -18,7 +24,7 @@ function Home() {
   return (
     <Container>
       {/* Introductry  text  from line 28 - 165*/}
-
+      <div className="bg-[#f9dde8]">
        <div className="text-center font-extrabold  text-[#38103d] p-[1.5rem]">
         <div className="lg:text-[2.2rem] sm:text-sm">
           THE ZULAYKHA GLOBAL ACADEMY
@@ -52,17 +58,17 @@ function Home() {
       <div className=" md:block justify-center  gap-5 lg:flex  justify-center  sm:block p-5">
         {/* class1 */}
 
-        <div className="my-[2rem] border-[0.2rem] rounded border-[#441d49] font-semibold text-[#3a1642] text-center  hover:-translate-y-1 duration-700">
+        <div className="my-[2rem] border drop-shadow-lg bg-[#431146]  rounded-lg font-semibold text-[#3a1642] text-center  hover:-translate-y-1 duration-700">
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[11.1rem]">
             TAHFEEZ CLASS
           </div>
-          <div className="my-[0rem] flex-col">
+          <div className="my-[0rem] flex-col bg-[#431146] rounded-lg">
             <div className="">
-            <div className="p-3 font-extrabold"><p className="text-green-700">monthly</p><p>N10,000</p></div>
-            <div className="p-3 font-extrabold"><p className="text-green-700">mon-fri</p><p>weekends</p><p className="text-green-700">duration:</p><p>40min</p></div>
+            <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p className="text-blue-300">N10,000</p></div>
+            <div className="p-3 font-extrabold"><p className="text-[#E99625]">mon-fri</p><p className="text-blue-300">weekends</p><p className="text-[#E99625]">duration:</p><p className="text-blue-300">40min</p></div>
               <div className="p-3">
                 <button className="bg-[#441d49] border-dotted border-2 animate-bounce focus:animate-none hover:animate-none   py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
-                +2348077688028
+                08133128088
                 </button>
               </div>
             </div>
@@ -70,38 +76,38 @@ function Home() {
         </div>
         {/* class2 */}
         {/* #f2878c */}
-        <div className="my-[2rem] border-[0.2rem] rounded border-[#f2878c] font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
-          <div className="font-extrabold bg-[#f2878c] text-[#fdf7fb] w-[10rem]">
+        <div className="my-[2rem] border drop-shadow-lg bg-[#431146]  rounded-lg font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
+          <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[10rem]">
             GENERAL CLASS
           </div>
-          <div className="my-[1rem] flex-col">
+          <div className="my-[1rem] flex-col text-blue-300">
             <div>Tilaawah/Hifz</div>
             <div>Khattu/Imla</div>
             <div>Tajweed/Adab</div>
             <div>Hadeeth/Arabiyyah</div>
             <div>Tafsir/Qiraa{" ' "}ah</div>
             <div className="">
-            <div className="p-3 font-extrabold"><p className="text-green-700">monthly</p><p>N12,500</p><p className="text-green-700">semester</p><p>N42,000</p></div>
+            <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,500</p><p className="text-[#E99625]">semester</p><p>N42,000</p></div>
               <div>
-                <button className="bg-[#f2878c] animate-bounce focus:animate-none hover:animate-none  border-dotted border-2 py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
-                +2348077688028
+                <button className="bg-[#441d49] animate-bounce focus:animate-none hover:animate-none  border-dotted border-2 py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
+                08133128088
                 </button>
               </div>
             </div>
           </div>
         </div>
         {/* class3 */}
-        <div className="my-[2rem] border-[0.2rem] rounded border-[#441d49] font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
+        <div className="my-[2rem] border drop-shadow-lg bg-[#431146]  rounded-lg font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
           <div className="font-extrabold bg-[#441d49]  text-[#fdf7fb] w-[11.1rem]">
             JUZ MUJAADILAH
           </div>
-          <div className="my-[0rem] flex-col">
+          <div className="my-[0rem] flex-col text-blue-300">
             <div className="">
-            <div className="p-3 font-extrabold"><p className="text-green-700">monthly</p><p>N12,000</p></div>
-            <div className="p-3 font-extrabold"><p className="text-green-700">mon-fri</p><p className="text-green-700">duration:</p><p>40min</p></div>
+            <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,000</p></div>
+            <div className="p-3 font-extrabold"><p className="text-[#E99625]">mon-fri</p><p className="text-[#E99625]">duration:</p><p>40min</p></div>
               <div className="p-3">
                 <button className="bg-[#441d49] border-dotted border-2 animate-bounce focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
-                +2348077688028
+                08133128088
                 </button>
               </div>
             </div>
@@ -109,54 +115,54 @@ function Home() {
         </div>
         {/* class4 */}
 
-        <div className="my-[2rem] border-[0.2rem] rounded border-[#f2878c] font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
-          <div className="font-extrabold bg-[#f2878c] text-[#fdf7fb] w-[11rem] text-[0.9rem]">
+        <div className="my-[2rem] border drop-shadow-lg bg-[#431146]  rounded-lg font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
+          <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[11rem] text-[1.1rem]">
             PRIVATE CLASS
           </div>
-          <div className="my-[1rem] flex-col">
+          <div className="my-[1rem] flex-col text-blue-300">
             <div>Qiraa{" ' "}ah/Tilaawah</div>
             <div>Hifz/Khattu</div>
             <div>Imla/Tajweed</div>
             <div>Hadeeth/Adab</div>
             <div>Arabiyyah</div>
             <div className="">
-            <div className="p-3 font-extrabold"><p>monthly</p><p className="text-green-700">4 days per week</p><p>N36,000</p><p className="text-green-700">duration:</p><p>1hr 30min</p></div>
+            <div className="p-3 font-extrabold"><p>monthly</p><p className="text-[#E99625]">4 days per week</p><p>N36,000</p><p className="text-[#E99625]">duration:</p><p>1hr 30min</p></div>
               <div>
-                <button className="bg-[#f2878c] border-dotted border-2 animate-bounce focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
-                +2348077688028
+                <button className="bg-[#441d49] border-dotted border-2 animate-bounce focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
+                08133128088
                 </button>
               </div>
             </div>
           </div>
         </div>
         {/* class5 */}
-        <div className="my-[2rem] border-[0.2rem] rounded border-[#441d49] font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
+        <div className="my-[2rem] border drop-shadow-lg bg-[#431146]  rounded-lg font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[11rem]">
             ADULT CLASS
           </div>
-          <div className="my-[1rem] flex-col">
+          <div className="my-[1rem] flex-col text-blue-300">
             <div>Hifz/Arabiyyah</div>
             <div>Hadeeth/Imla</div>
             <div>Aqeedah/Adab</div>
             <div>Khattu/Tajweed</div>
             <div>Qiraa{" ' "}ah/Tilaawah</div>
             <div className="">
-            <div className="p-3 font-extrabold"><p className="text-green-700">monthly</p><p>N12,500</p><p className="text-green-700">semester</p><p>N42,000</p></div>
+            <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,500</p><p className="text-[#E99625]">semester</p><p>N42,000</p></div>
 
               <div>
                 <button className="bg-[#441d49] border-dotted border-2 animate-bounce focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
-                +2348077688028
+                08133128088
                 </button>
               </div>
             </div>
           </div>
         </div>
         {/* class6 */}
-        <div className="my-[2rem] border-[0.2rem] rounded border-[#f2878c] font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
-          <div className="font-extrabold bg-[#f2878c] text-[#fdf7fb] w-[10rem] text-[0.9rem]">
+        <div className="my-[2rem] border drop-shadow-lg bg-[#431146]  rounded-lg font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
+          <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[10rem] text-[1.1rem]">
             KIDDIES-CLASS
           </div>
-          <div id="classdays" className="my-[1rem] flex-col">
+          <div id="classdays" className="my-[1rem] flex-col text-blue-300">
             <div>Qiraa{" ' "}ah</div>
             <div>Aqeedah</div>
             <div>Hadeeth</div>
@@ -164,9 +170,9 @@ function Home() {
             <div>Adab</div>
             <div>Tajweed</div>
             <div className="">
-              <div className="p-3 font-extrabold"><p className="text-green-700">monthly</p><p>N12,500</p><p className="text-green-700">semester</p><p>N45,000</p></div>
-                <button className="bg-[#f2878c] border-dotted border-2 animate-bounce focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
-                +2348077688028
+              <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,500</p><p className="text-[#E99625]">semester</p><p>N45,000</p></div>
+                <button className="bg-[#441d49] border-dotted border-2 animate-bounce focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
+                08133128088
                 </button>
          
             </div>
@@ -197,41 +203,58 @@ function Home() {
           data-carousel="static"
         >
           <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
-            <div
-              className="hidden duration-700 ease-in-out"
-              data-carousel-item="active"
-            >
-              {/* image 1  */}
-              <img
-                src={speech1}
-                className="absolute block w-full translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 "
-              />
-            </div>
-
-            <div className="hidden duration-700 ease-in-out" data-carousel-item>
-              {/* image 2  */}
-              <img
-                src={speech2}
-                className="absolute block w-full translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              />
-            </div>
-
-            <div className="hidden duration-700 ease-in-out" data-carousel-item>
-              {/* image 3  */}
-              <img
-                src={quote1}
-                className="absolute block w-full translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              />
-            </div>
-
+        
+        
             <div className="hidden duration-700 ease-in-out" data-carousel-item>
               {/* image 4  */}
               <img
-                src={feed}
+                src={feed1}
                 className="absolute block w-full translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               />
             </div>
           </div>
+
+          <div className="hidden duration-700 ease-in-out" data-carousel-item>
+              {/* image 4  */}
+              <img
+                src={feed2}
+                className="absolute  w-full translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              />
+            </div>
+          
+
+          <div className="hidden  duration-700 ease-in-out" data-carousel-item>
+              {/* image 4  */}
+              <img
+                src={reverts}
+                className="absolute block w-full  translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              />
+            </div>
+
+            <div className="hidden  duration-700 ease-in-out" data-carousel-item>
+              {/* image 4  */}
+              <img
+                src={heroes}
+                className="absolute block w-full  translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              />
+            </div>
+          
+
+            <div className="hidden  duration-700 ease-in-out" data-carousel-item>
+              {/* image 4  */}
+              <img
+                src={quote1}
+                className="absolute block w-full  translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              />
+            </div>
+
+            <div className="hidden  duration-700 ease-in-out" data-carousel-item>
+              {/* image 4  */}
+              <img
+                src={ramahif}
+                className="absolute block w-full  translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+              />
+            </div>
           {/* carousel properties  at line 203 - 252 */}
           <button
             type="button"
@@ -306,6 +329,7 @@ function Home() {
             </div>
           </div>
         </marquee>
+        </div>
     </Container>
   );
 }

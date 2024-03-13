@@ -19,8 +19,9 @@ const Header = () => {
   
 
 
+
   return (
-    <div className="flex justify-between p-3 bg-[#fbf5f9] items-center bg-white text-[#38103d] text-center drop-shadow-sm">
+    <div className="flex justify-between p-3 bg-[#fbf5f9] items-center bg-[#5f266d] text-[#ffffff] text-center drop-shadow-sm">
     <div className="flex items-center text-center gap-2">
       <img
         src={zully}
@@ -29,15 +30,15 @@ const Header = () => {
       />
 
       <div>
-        <p className="text-[#3c1447] font-bold bg-[#38203d] p-[0.2rem] text-white rounded">
+        <p className="text-[#3c1447] font-bold bg-[#38203d] opacity-100 p-[0.2rem] text-white rounded">
           أكاديمية زليخا العالمية
         </p>
-        <p className="font-bold text-[0.8rem] text-white bg-[#38203d] rounded p-[0.3rem]">
+        <p className="font-bold text-[0.8rem] text-white bg-[#38203d]  opacity-100 rounded p-[0.3rem]">
           The Zulaykha Global Academy
         </p>
       </div>
     </div>
-    <div className={`${drop ? 'block lg:flex absolute lg:static z-20  top-[75px] shadow-lg space-y-3 py-3': 'hidden lg:flex'} gap-10 bg-white w-full lg:bg-transparent lg:w-auto items-center text-[1.1rem]`}>
+    <div className={`${drop ? 'block lg:flex absolute lg:static z-20  top-[75px] shadow-lg space-y-3 py-3': 'hidden lg:flex'} gap-10 bg-[#5f266d] w-full lg:bg-transparent lg:w-auto items-center text-[1.1rem]`}>
       <div>
         <a href="/">Home</a>
       </div>
@@ -51,7 +52,7 @@ const Header = () => {
       </div>
       <div className="sm:my-[1rem] lg:my-[0rem]">
         <button className="bg-[#fdb72f] py-2 px-4 border-dotted border-2 animate-bounce focus:animate-none hover:animate-none  rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
-          <a href="https://gofund.me/539f99e0">Donate</a>
+          <a href="https://gofund.me/4ccfdeb0">Donate</a>
         </button>
       </div>
     </div>

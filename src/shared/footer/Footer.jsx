@@ -13,7 +13,7 @@ const Footer = () => {
 
   return (
 <>
-<div id="aboutus" className=" flex justify-center bg-[#f2878c] text-[#441d49] font-semibold my-[1rem] p-2">
+<div id="aboutus" className=" flex justify-center bg-[#5f266d] text-white font-semibold my-[1rem] p-2">
     <div className="lg:w-[68rem] sm:text-sm lg:text-[1.1rem]">
       <p>
         The Zulaykha Global Academy* always offers *variety* for you
@@ -36,25 +36,19 @@ const Footer = () => {
     </div>
   </div>
 
-  <div className="md:flex justify-evenly bg-[#441d49] sm:text-sm  my-[-1rem] text-[#fdf7fb] lg:text-[1.1rem]  p-3 font-semibold sm:block">
-    <div className="text-yellow-400" id="contactus">
+  <div className="md:flex justify-evenly bg-[#431146] sm:text-sm  my-[-1rem] text-[#fdf7fb] lg:text-[1.1rem]  p-3 font-semibold sm:block">
+    <div className="text-[#e99625]" id="contactus">
       <div className="text-[#ffff] my-[0.7rem]">Contact</div>
       <div>+2348133128088</div>
       <div>+2348035791134</div>
-      <div>+358 408562383</div>
-      <div className="my-[0.6rem]">
-      <div>Admin.officer|(+2348077688028)</div>
-      <div>Ust.Hikmah|(+2348128487192)</div>
-      <div>Ust.Aminah|(+2348138423168)</div>
-      </div>
       
     </div>
-    <div className="text-yellow-400 my-[0.7rem]">
+    <div className="text-[#e99625] my-[0.7rem]">
       <div className="text-[#ffff]">Location</div>
       <div>Lagos</div>
       <div>35,Arobadade,after sawmill,Bariga</div>
     </div>
-    <div className="text-yellow-400 my-[0.7rem]">
+    <div className="text-[#e99625] my-[0.7rem]">
       <div className="text-[#ffff]">Connect</div>
       <div className="flex gap-2">
         <img
@@ -111,8 +105,9 @@ const Footer = () => {
         </div>
       </div>
     </div>
+    
   </div>
-  <div className="text-center p-10 fonts-semibold bg-[#441d49] text-[0.8rem] text-[#fdf7fb]">Copyright © {`${year}`}.
+  <div className="text-center p-10 fonts-semibold bg-[#e99625] text-[0.8rem] text-[#fdf7fb]">Copyright © {`${year}`}.
    All rights reserved | Zulaykha_Global_Academy <br />
   <span className="bg-black-500 font-bold">{`${day} - ${month +1} - ${year} `}</span></div>
 </>
