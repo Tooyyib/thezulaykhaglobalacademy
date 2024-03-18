@@ -314,7 +314,7 @@ function Home() {
           <div className="flex gap-5 text-[#ffff]">
             
             <div className="bg-[#f2878c] w-[20rem] rounded text-center p-2 font-semibold">
-               <a href="https://www.facebook.com/photo?fbid=791221883022388&set=a.456047979873115">Feed muslims in Ramadan</a>
+               <a href="https://web.facebook.com/photo/?fbid=791221536355756&set=a.456047979873115">Feed muslims in Ramadan</a>
             </div>
             <div className="bg-[#f2878c] w-[29rem] rounded text-center p-2 font-semibold">
               <a href="#classdays">

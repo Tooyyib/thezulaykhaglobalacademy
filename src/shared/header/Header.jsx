@@ -21,12 +21,12 @@ const Header = () => {
 
 
   return (
-    <div className="flex justify-between p-3 bg-[#fbf5f9] items-center bg-[#5f266d] text-[#ffffff] text-center drop-shadow-sm">
+    <div className="flex justify-between p-3  items-center bg-[#5f266d] text-center drop-shadow-sm text-white">
     <div className="flex items-center text-center gap-2">
       <img
         src={zully}
         alt="zully"
-        className="sm:h-[3rem] w-[3rem] rounded-full lg:mx-auto  focus:animate-none hover:animate-none "
+        className="sm:h-[3rem] w-[3rem] animate-bounce rounded-full lg:mx-auto  focus:animate-none hover:animate-none "
       />
 
       <div>
@@ -51,13 +51,16 @@ const Header = () => {
         </button>
       </div>
       <div className="sm:my-[1rem] lg:my-[0rem]">
-        <button className="bg-[#fdb72f] py-2 px-4 border-dotted border-2 animate-bounce focus:animate-none hover:animate-none  rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
+        <button className="bg-[#fdb72f] py-2 px-4 border-dotted border-2  focus:animate-none hover:animate-none  rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
           <a href="https://gofund.me/4ccfdeb0">Donate</a>
         </button>
       </div>
     </div>
-     <div onClick={collapse} className={`${drop?'hidden':'block lg:hidden'}`}><GiHamburgerMenu/></div> 
+    <div className="text-white">
+    <div onClick={collapse} className={`${drop?'hidden':'block lg:hidden'}`}><GiHamburgerMenu/></div> 
     <div onClick={close} className={`${!drop?'hidden':'block lg:hidden'}`}><VscClose /> </div>   
+  </div>
+    
   </div>
   // 
   )
