@@ -191,8 +191,8 @@ function Home() {
           </div>
           <div className="my-[1rem]">
             <div>Saturdays & Sundays</div>
-            <div className="bg-[#3a1642] text-[#fdf7fb] font-bold">Time :</div>
-            <div>8:00am-10:00am</div>
+            <div className="bg-[#3a1642] text-[#fdf7fb] font-bold">Time: WAT Zone</div>
+            <div>8:00am-10:30am</div>
           </div>
         </div>
       </div>
