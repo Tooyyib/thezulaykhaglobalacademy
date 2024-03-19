@@ -46,12 +46,12 @@ const Header = () => {
       <div><button><a href="#aboutus">About us</a></button></div>
       {/* <div><a href="/Enlightment">Spiritual Enlightment</a></div> */}
       <div className="sm:my-[1rem] lg:my-[0rem]">
-        <button className="py-2 px-4 bg-[#38103d] border-dotted border-2 focus:animate-none hover:animate-none  text-[#fdfdfd] font-bold rounded hover:-translate-y-1 duration-700 text-[1rem]">
+        <button className="py-2 px-4 bg-[#38103d] border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  text-[#fdfdfd] font-bold rounded hover:-translate-y-1 duration-700 text-[1rem]">
           <a href="http://wa.me/2348133128088">Membership</a>
         </button>
       </div>
       <div className="sm:my-[1rem] lg:my-[0rem]">
-        <button className="bg-[#fdb72f] py-2 px-4 border-dotted border-2  focus:animate-none hover:animate-none  rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
+        <button className="bg-[#fdb72f] py-2 px-4 border-dotted border-2 hover:opacity-50  focus:animate-none hover:animate-none  rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
           <a href="https://gofund.me/4ccfdeb0">Donate</a>
         </button>
       </div>
