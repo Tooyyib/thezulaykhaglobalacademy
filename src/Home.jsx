@@ -29,7 +29,7 @@ function Home() {
     Swal.fire({
       title: "TAHFEEZ CLASS",
       text: "",
-      imageUrl: "(../src/images/feed2.jpeg)",
+      imageUrl: "(/src/images/feed2.jpeg)",
       imageWidth: 400,
       imageHeight: 200,
       imageAlt: "feed2",
@@ -42,21 +42,21 @@ function Home() {
 
     Swal.fire({
       title: "GENERAL CLASS",
-      text: "",
-      imageUrl: "(../src/images/feed2.jpeg)",
-      imageWidth: 400,
-      imageHeight: 200,
-      imageAlt: "feed2",
+      text: "Hifz,Khattu,Imla,Tajweed,Adab,Hadeeth,Arabiyyah,Tilaawah/Qiraa'ah 8.Adab",
+      imageUrl: "(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4NLe0ykMB_P3KP6z_NxB5TExAatUWW8VqsbXzZGNJuA&s)",
+      imageWidth: 100,
+      imageHeight: 100,
+      imageAlt: "encrypted",
       color: "white",
       background: "#431146"
     });
   }
 
-  const juz = () =>{
+  const grandMa = () =>{
 
     Swal.fire({
-      title: "JUZ-MUJAADILAH CLASS",
-      text: "",
+      title: "GRANDMAS AND BUSY WIVES CLASS",
+      html: "Hifz, </br> Khattu,Imla,Tajweed,Adab,Hadeeth,Arabiyyah,Tilaawah/Qiraa'ah,Adab",
       imageUrl: "(../src/images/feed2.jpeg)",
       imageWidth: 400,
       imageHeight: 200,
@@ -70,7 +70,7 @@ function Home() {
 
     Swal.fire({
       title: "PRIVATE CLASS",
-      text: "",
+      text: "Hifz,Khattu,Imla,Tajweed,Adab,Hadeeth,Arabiyyah,Tafsir,Tilaawah/Qiraa'ah 8.Adab",
       imageUrl: "(../src/images/feed2.jpeg)",
       imageWidth: 400,
       imageHeight: 200,
@@ -84,15 +84,16 @@ function Home() {
 
     Swal.fire({
       title: "ADULT CLASS",
-      text: "",
+      text: "Tilaawah,Hifz,Khattu,Imla,Tajweed,Adab,Hadeeth,Arabiyyah,Tafsir,Qiraa'ah",
       imageUrl: "(../src/images/feed2.jpeg)",
-      imageWidth: 400,
-      imageHeight: 200,
+      imageWidth: 100,
+      imageHeight: 100,
       imageAlt: "feed2",
       color: "white",
       background: "#431146"
     });
   }
+
 
   const kids = () =>{
 
@@ -151,7 +152,7 @@ function Home() {
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[11.1rem]">
             TAHFEEZ CLASS
           </div>
-          <div onClick={tahfeez} className="text-yellow-200 cursor-pointer">(readmore)</div>
+          <div onClick={tahfeez} className="text-yellow-200 cursor-pointer">(read more)</div>
           <div className="my-[0rem] flex-col bg-[#431146] rounded-lg">
             <div className="">
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p className="text-blue-300">N10,000</p></div>
@@ -170,7 +171,7 @@ function Home() {
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[10rem]">
             GENERAL CLASS
           </div>
-          <div onClick={general} className="text-yellow-200 cursor-pointer">(readmore)</div>
+          <div onClick={general} className="text-yellow-200 cursor-pointer">(read more)</div>
           <div className="my-[1rem] flex-col text-blue-300">
             <div>Tilaawah/Hifz</div>
             <div>Khattu/Imla</div>
@@ -189,10 +190,10 @@ function Home() {
         </div>
         {/* class3 */}
         <div className="my-[2rem] border drop-shadow-lg bg-[#431146] pt-2  rounded-lg font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
-          <div className="font-extrabold bg-[#441d49]  text-[#fdf7fb] w-[11.1rem]">
-            JUZ MUJAADILAH
+          <div className="font-extrabold bg-[#441d49]  text-[#fdf7fb] w-[11.1rem] sm:flex-justify-center">
+            GRANDMAS... CLASS
           </div>
-          <div onClick={juz} className="text-yellow-200 cursor-pointer">(readmore)</div>
+          <div onClick={grandMa} className="text-yellow-200 cursor-pointer">(read more)</div>
           <div className="my-[0rem] flex-col text-blue-300">
             <div className="">
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,000</p></div>
@@ -211,7 +212,7 @@ function Home() {
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[11rem] text-[1.1rem]">
             PRIVATE CLASS
           </div>
-          <div onClick={prive} className="text-yellow-200 cursor-pointer">(readmore)</div>
+          <div onClick={prive} className="text-yellow-200 cursor-pointer">(read more)</div>
           <div className="my-[1rem] flex-col text-blue-300">
             <div>Qiraa{" ' "}ah/Tilaawah</div>
             <div>Hifz/Khattu</div>
@@ -233,7 +234,7 @@ function Home() {
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[11rem]">
             ADULT CLASS
           </div>
-          <div onClick={adult} className="text-yellow-200 cursor-pointer">(readmore)</div>
+          <div onClick={adult} className="text-yellow-200 cursor-pointer">(read more)</div>
           <div className="my-[1rem] flex-col text-blue-300">
             <div>Hifz/Arabiyyah</div>
             <div>Hadeeth/Imla</div>
@@ -256,7 +257,7 @@ function Home() {
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[10rem] text-[1.1rem]">
             KIDDIES-CLASS
           </div>
-          <div onClick={kids} className="text-yellow-200 cursor-pointer">(readmore)</div>
+          <div onClick={kids} className="text-yellow-200 cursor-pointer">(read more)</div>
           <div id="classdays" className="my-[1rem] flex-col text-blue-300">
             <div>Qiraa{" ' "}ah</div>
             <div>Aqeedah</div>
