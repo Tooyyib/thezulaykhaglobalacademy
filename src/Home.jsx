@@ -151,7 +151,7 @@ function Home() {
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[11.1rem]">
             TAHFEEZ CLASS
           </div>
-          <div onClick={tahfeez} className="text-white">(readmore)</div>
+          <div onClick={tahfeez} className="text-yellow-200 cursor-pointer">(readmore)</div>
           <div className="my-[0rem] flex-col bg-[#431146] rounded-lg">
             <div className="">
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p className="text-blue-300">N10,000</p></div>
@@ -170,7 +170,7 @@ function Home() {
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[10rem]">
             GENERAL CLASS
           </div>
-          <div onClick={general} className="">readmore</div>
+          <div onClick={general} className="text-yellow-200 cursor-pointer">(readmore)</div>
           <div className="my-[1rem] flex-col text-blue-300">
             <div>Tilaawah/Hifz</div>
             <div>Khattu/Imla</div>
@@ -192,7 +192,7 @@ function Home() {
           <div className="font-extrabold bg-[#441d49]  text-[#fdf7fb] w-[11.1rem]">
             JUZ MUJAADILAH
           </div>
-          <div onClick={juz} className="">readmore</div>
+          <div onClick={juz} className="text-yellow-200 cursor-pointer">(readmore)</div>
           <div className="my-[0rem] flex-col text-blue-300">
             <div className="">
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,000</p></div>
@@ -211,7 +211,7 @@ function Home() {
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[11rem] text-[1.1rem]">
             PRIVATE CLASS
           </div>
-          <div onClick={prive} className="">readmore</div>
+          <div onClick={prive} className="text-yellow-200 cursor-pointer">(readmore)</div>
           <div className="my-[1rem] flex-col text-blue-300">
             <div>Qiraa{" ' "}ah/Tilaawah</div>
             <div>Hifz/Khattu</div>
@@ -233,7 +233,7 @@ function Home() {
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[11rem]">
             ADULT CLASS
           </div>
-          <div onClick={adult} className="">readmore</div>
+          <div onClick={adult} className="text-yellow-200 cursor-pointer">(readmore)</div>
           <div className="my-[1rem] flex-col text-blue-300">
             <div>Hifz/Arabiyyah</div>
             <div>Hadeeth/Imla</div>
@@ -256,7 +256,7 @@ function Home() {
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[10rem] text-[1.1rem]">
             KIDDIES-CLASS
           </div>
-          <div onClick={kids} className="">readmore</div>
+          <div onClick={kids} className="text-yellow-200 cursor-pointer">(readmore)</div>
           <div id="classdays" className="my-[1rem] flex-col text-blue-300">
             <div>Qiraa{" ' "}ah</div>
             <div>Aqeedah</div>
