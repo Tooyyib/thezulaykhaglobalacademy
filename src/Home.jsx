@@ -157,7 +157,7 @@ function Home() {
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p className="text-blue-300">N10,000</p></div>
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">mon-fri</p><p className="text-blue-300">weekends</p><p className="text-[#E99625]">duration:</p><p className="text-blue-300">40min</p></div>
               <div className="p-3">
-                <button  className="bg-[#441d49] border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none   py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
+                <button  className="bg-[#441d49] animate-bounce border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none   py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
                 <a href="http://wa.me/2348133128088">08133128088</a>
                 </button>
               </div>
@@ -180,7 +180,7 @@ function Home() {
             <div className="">
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,500</p><p className="text-[#E99625]">semester</p><p>N42,000</p></div>
               <div>
-                <button  className="bg-[#441d49]  focus:animate-none hover:animate-none hover:opacity-50  border-dotted border-2 py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
+                <button  className="bg-[#441d49] animate-bounce focus:animate-none hover:animate-none hover:opacity-50  border-dotted border-2 py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
                 <a href="http://wa.me/2348133128088">08133128088</a>
                 </button>
               </div>
@@ -198,7 +198,7 @@ function Home() {
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,000</p></div>
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">mon-fri</p><p className="text-[#E99625]">duration:</p><p>40min</p></div>
               <div className="p-3">
-                <button  className="bg-[#441d49] border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
+                <button  className="bg-[#441d49] animate-bounce border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
                 <a href="http://wa.me/2348133128088">08133128088</a>
                 </button>
               </div>
@@ -221,7 +221,7 @@ function Home() {
             <div className="">
             <div className="p-3 font-extrabold"><p>monthly</p><p className="text-[#E99625]">4 days per week</p><p>N36,000</p><p className="text-[#E99625]">duration:</p><p>1hr 30min</p></div>
               <div>
-                <button  className="bg-[#441d49] border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
+                <button  className="bg-[#441d49] animate-bounce border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
                 <a href="http://wa.me/2348133128088">08133128088</a>
                 </button>
               </div>
@@ -244,7 +244,7 @@ function Home() {
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,500</p><p className="text-[#E99625]">semester</p><p>N42,000</p></div>
 
               <div>
-                <button   className="bg-[#441d49] border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
+                <button   className="bg-[#441d49] animate-bounce border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
                  <a href="http://wa.me/2348133128088">08133128088</a>
                 </button>
               </div>
@@ -266,7 +266,7 @@ function Home() {
             <div>Tajweed</div>
             <div className="">
               <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,500</p><p className="text-[#E99625]">semester</p><p>N45,000</p></div>
-                <button  className="bg-[#441d49] border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
+                <button  className="bg-[#441d49] animate-bounce border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
                 <a href="http://wa.me/2348133128088">08133128088</a>
                 </button>
             </div>
