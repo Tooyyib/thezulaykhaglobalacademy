@@ -28,10 +28,10 @@ function Home() {
 
     Swal.fire({
       title: "TAHFEEZ CLASS",
-      text: "",
+      html: "(General Classes) </br></br> Juz Mujaadila </br></br> Time: 6:15-7am",
       imageUrl: "(/src/images/feed2.jpeg)",
-      imageWidth: 400,
-      imageHeight: 200,
+      imageWidth: 100,
+      imageHeight: 100,
       imageAlt: "feed2",
       color: "white",
       background: "#431146"
@@ -42,7 +42,7 @@ function Home() {
 
     Swal.fire({
       title: "GENERAL CLASS",
-      text: "Hifz,Khattu,Imla,Tajweed,Adab,Hadeeth,Arabiyyah,Tilaawah/Qiraa'ah 8.Adab",
+      html: "Hifz,Khattu,Imla,Tajweed,Adab,Hadeeth,Arabiyyah,</br> Tilaawah/Qiraa'ah, 8.Adab </br></br> Time: 8:00-10:30am",
       imageUrl: "(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4NLe0ykMB_P3KP6z_NxB5TExAatUWW8VqsbXzZGNJuA&s)",
       imageWidth: 100,
       imageHeight: 100,
@@ -55,11 +55,11 @@ function Home() {
   const grandMa = () =>{
 
     Swal.fire({
-      title: "GRANDMAS AND BUSY WIVES CLASS",
-      html: "Hifz, </br> Khattu,Imla,Tajweed,Adab,Hadeeth,Arabiyyah,Tilaawah/Qiraa'ah,Adab",
+      title: "GRANDMAS CLASS",
+      html: "Hifz,Khattu,Imla,Tajweed,Hadeeth,Arabiyyah,Tilaawah/Qiraa'ah,Adab,Aqeedah </br></br><strong>BUSY WIVES CLASS</strong></br></br>Hifz,Tilaawah,Tajweed",
       imageUrl: "(../src/images/feed2.jpeg)",
-      imageWidth: 400,
-      imageHeight: 200,
+      imageWidth: 100,
+      imageHeight: 100,
       imageAlt: "feed2",
       color: "white",
       background: "#431146"
@@ -70,21 +70,21 @@ function Home() {
 
     Swal.fire({
       title: "PRIVATE CLASS",
-      text: "Hifz,Khattu,Imla,Tajweed,Adab,Hadeeth,Arabiyyah,Tafsir,Tilaawah/Qiraa'ah 8.Adab",
+      html: "Hifz,Khattu,Imla,Tajweed,Hadeeth,Arabiyyah,Tafsir,</br> Tilaawah/Qiraa'ah, 8.Adab  </br></br>Note: class days are negotiable </br></br>Once Weekly: 12,000 </br>Twice Weekly: 20,000 </br>Thrice Weekly: 28,000 </br>Monthly: 36,000",
       imageUrl: "(../src/images/feed2.jpeg)",
-      imageWidth: 400,
-      imageHeight: 200,
+      imageWidth: 100,
+      imageHeight: 100,
       imageAlt: "feed2",
       color: "white",
       background: "#431146"
     });
   }
 
-  const adult = () =>{
+  const tahfeez2 = () =>{
 
     Swal.fire({
-      title: "ADULT CLASS",
-      text: "Tilaawah,Hifz,Khattu,Imla,Tajweed,Adab,Hadeeth,Arabiyyah,Tafsir,Qiraa'ah",
+      title: "TAHFEEZ CLASS 2",
+      html: "(private Classes) </br></br> Juz Mujaadila </br></br> Time: 6:15-7am",
       imageUrl: "(../src/images/feed2.jpeg)",
       imageWidth: 100,
       imageHeight: 100,
@@ -99,10 +99,10 @@ function Home() {
 
     Swal.fire({
       title: "KIDDIES CLASS",
-      text: "",
+      html: "(General Classes) </br>Pre-Nursery,nursery,Primary </br></br> Notice: two or more kids attract 5% discount on total fee per semester only.",
       imageUrl: "(../src/images/feed2.jpeg)",
-      imageWidth: 400,
-      imageHeight: 200,
+      imageWidth: 100,
+      imageHeight: 100,
       imageAlt: "feed2",
       color: "white",
       background: "#431146"
@@ -150,9 +150,9 @@ function Home() {
 
         <div className="my-[2rem] border drop-shadow-lg bg-[#431146]  rounded-lg font-semibold text-[#3a1642] text-center pt-2  hover:-translate-y-1 duration-700">
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[11.1rem]">
-            TAHFEEZ CLASS
+            TAHFEEZ CLASS 1
           </div>
-          <div onClick={tahfeez} className="text-yellow-200 cursor-pointer">(read more)</div>
+          <div onClick={tahfeez} className="text-yellow-200 cursor-pointer p-2">(read more)</div>
           <div className="my-[0rem] flex-col bg-[#431146] rounded-lg">
             <div className="">
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p className="text-blue-300">N10,000</p></div>
@@ -171,13 +171,8 @@ function Home() {
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[10rem]">
             GENERAL CLASS
           </div>
-          <div onClick={general} className="text-yellow-200 cursor-pointer">(read more)</div>
+          <div onClick={general} className="text-yellow-200 cursor-pointer p-2">(read more)</div>
           <div className="my-[1rem] flex-col text-blue-300">
-            <div>Tilaawah/Hifz</div>
-            <div>Khattu/Imla</div>
-            <div>Tajweed/Adab</div>
-            <div>Hadeeth/Arabiyyah</div>
-            <div>Tafsir/Qiraa{" ' "}ah</div>
             <div className="">
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,500</p><p className="text-[#E99625]">semester</p><p>N42,000</p></div>
               <div>
@@ -193,7 +188,7 @@ function Home() {
           <div className="font-extrabold bg-[#441d49]  text-[#fdf7fb] w-[11.1rem] sm:flex-justify-center">
             GRANDMAS... CLASS
           </div>
-          <div onClick={grandMa} className="text-yellow-200 cursor-pointer">(read more)</div>
+          <div onClick={grandMa} className="text-yellow-200 cursor-pointer p-2">(read more)</div>
           <div className="my-[0rem] flex-col text-blue-300">
             <div className="">
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,000</p></div>
@@ -212,13 +207,8 @@ function Home() {
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[11rem] text-[1.1rem]">
             PRIVATE CLASS
           </div>
-          <div onClick={prive} className="text-yellow-200 cursor-pointer">(read more)</div>
+          <div onClick={prive} className="text-yellow-200 cursor-pointer p-2">(read more)</div>
           <div className="my-[1rem] flex-col text-blue-300">
-            <div>Qiraa{" ' "}ah/Tilaawah</div>
-            <div>Hifz/Khattu</div>
-            <div>Imla/Tajweed</div>
-            <div>Hadeeth/Adab</div>
-            <div>Arabiyyah</div>
             <div className="">
             <div className="p-3 font-extrabold"><p>monthly</p><p className="text-[#E99625]">4 days per week</p><p>N36,000</p><p className="text-[#E99625]">duration:</p><p>1hr 30min</p></div>
               <div>
@@ -232,15 +222,11 @@ function Home() {
         {/* class5 */}
         <div className="my-[2rem] border drop-shadow-lg bg-[#431146] pt-2 rounded-lg font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[11rem]">
-            ADULT CLASS
+            TAHFEEZ CLASS 2
           </div>
-          <div onClick={adult} className="text-yellow-200 cursor-pointer">(read more)</div>
+          <div onClick={tahfeez2} className="text-yellow-200 cursor-pointer p-2">(read more)</div>
           <div className="my-[1rem] flex-col text-blue-300">
-            <div>Hifz/Arabiyyah</div>
-            <div>Hadeeth/Imla</div>
-            <div>Aqeedah/Adab</div>
-            <div>Khattu/Tajweed</div>
-            <div>Qiraa{" ' "}ah/Tilaawah</div>
+        
             <div className="">
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,500</p><p className="text-[#E99625]">semester</p><p>N42,000</p></div>
 
@@ -257,14 +243,8 @@ function Home() {
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[10rem] text-[1.1rem]">
             KIDDIES-CLASS
           </div>
-          <div onClick={kids} className="text-yellow-200 cursor-pointer">(read more)</div>
+          <div onClick={kids} className="text-yellow-200 cursor-pointer p-2">(read more)</div>
           <div id="classdays" className="my-[1rem] flex-col text-blue-300">
-            <div>Qiraa{" ' "}ah</div>
-            <div>Aqeedah</div>
-            <div>Hadeeth</div>
-            <div>Hifz</div>
-            <div>Adab</div>
-            <div>Tajweed</div>
             <div className="">
               <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,500</p><p className="text-[#E99625]">semester</p><p>N45,000</p></div>
                 <button  className="bg-[#441d49] animate-bounce border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
