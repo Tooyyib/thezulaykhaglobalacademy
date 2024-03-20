@@ -12,15 +12,101 @@ import reverts from "../src/images/reverts.jpeg";
 import heroes from "../src/images/heroes.jpeg";
 import ramahif from "../src/images/ramahif.jpeg";
 
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+// import { ToastContainer, toast } from 'react-toastify';
+// import 'react-toastify/dist/ReactToastify.css';
 
+import Swal from 'sweetalert2'
 
 
 
 
 function Home() {
-  const notify = () => toast("please call or message this number!");
+  // const notify = () => toast("please call or message this number!");
+
+
+  const tahfeez = () =>{
+
+    Swal.fire({
+      title: "KIDDIES CLASSES",
+      text: "Modal with a custom image",
+      imageUrl: "(../src/images/feed2.jpeg)",
+      imageWidth: 400,
+      imageHeight: 200,
+      imageAlt: "feed2",
+      color: "white",
+      background: "#431146"
+    });
+  }
+
+  const general = () =>{
+
+    Swal.fire({
+      title: "KIDDIES CLASSES",
+      text: "Modal with a custom image",
+      imageUrl: "(../src/images/feed2.jpeg)",
+      imageWidth: 400,
+      imageHeight: 200,
+      imageAlt: "feed2",
+      color: "white",
+      background: "#431146"
+    });
+  }
+
+  const juz = () =>{
+
+    Swal.fire({
+      title: "KIDDIES CLASSES",
+      text: "Modal with a custom image",
+      imageUrl: "(../src/images/feed2.jpeg)",
+      imageWidth: 400,
+      imageHeight: 200,
+      imageAlt: "feed2",
+      color: "white",
+      background: "#431146"
+    });
+  }
+
+  const prive = () =>{
+
+    Swal.fire({
+      title: "KIDDIES CLASSES",
+      text: "Modal with a custom image",
+      imageUrl: "(../src/images/feed2.jpeg)",
+      imageWidth: 400,
+      imageHeight: 200,
+      imageAlt: "feed2",
+      color: "white",
+      background: "#431146"
+    });
+  }
+
+  const adult = () =>{
+
+    Swal.fire({
+      title: "KIDDIES CLASSES",
+      text: "Modal with a custom image",
+      imageUrl: "(../src/images/feed2.jpeg)",
+      imageWidth: 400,
+      imageHeight: 200,
+      imageAlt: "feed2",
+      color: "white",
+      background: "#431146"
+    });
+  }
+
+  const kids = () =>{
+
+    Swal.fire({
+      title: "KIDDIES CLASSES",
+      text: "Modal with a custom image",
+      imageUrl: "(../src/images/feed2.jpeg)",
+      imageWidth: 400,
+      imageHeight: 200,
+      imageAlt: "feed2",
+      color: "white",
+      background: "#431146"
+    });
+  }
   
  
   return (
@@ -41,7 +127,7 @@ function Home() {
       
 
       <div className="text-center mt-[2rem]">
-      <ToastContainer />
+      {/* <ToastContainer /> */}
         <div className="text-[1rem]">
           Strictly for disciplined and morally upright muslim sisters,wives and
           mothers
@@ -52,25 +138,26 @@ function Home() {
       {/* section3  available classes*/}
       <div className="mt-[3rem] flex justify-center">
         <div
-          className="font-extrabold bg-[#f2878c] text-[#fdf7fb] w-[13rem] text-center text-[0.9rem] rounded"
+          className="font-extrabold bg-[#f2878c] p-2 text-[#fdf7fb] w-[13rem] text-center text-[0.9rem] rounded"
         >
           AVAILABLE CLASSES ARE:
         </div>
       </div>
-
+                          {/* class details line 145 to 275 */}
       <div className=" md:block justify-center  gap-5 lg:flex  justify-center  sm:block p-5">
         {/* class1 */}
 
-        <div className="my-[2rem] border drop-shadow-lg bg-[#431146]  rounded-lg font-semibold text-[#3a1642] text-center  hover:-translate-y-1 duration-700">
+        <div className="my-[2rem] border drop-shadow-lg bg-[#431146]  rounded-lg font-semibold text-[#3a1642] text-center pt-2  hover:-translate-y-1 duration-700">
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[11.1rem]">
             TAHFEEZ CLASS
           </div>
+          <div onClick={tahfeez} className="text-white">(readmore)</div>
           <div className="my-[0rem] flex-col bg-[#431146] rounded-lg">
             <div className="">
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p className="text-blue-300">N10,000</p></div>
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">mon-fri</p><p className="text-blue-300">weekends</p><p className="text-[#E99625]">duration:</p><p className="text-blue-300">40min</p></div>
               <div className="p-3">
-                <button onMouseOver={notify} className="bg-[#441d49] border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none   py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
+                <button  className="bg-[#441d49] border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none   py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
                 <a href="http://wa.me/2348133128088">08133128088</a>
                 </button>
               </div>
@@ -79,10 +166,11 @@ function Home() {
         </div>
         {/* class2 */}
         {/* #f2878c */}
-        <div className="my-[2rem] border drop-shadow-lg bg-[#431146]  rounded-lg font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
+        <div className="my-[2rem] border drop-shadow-lg bg-[#431146] pt-2  rounded-lg font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[10rem]">
             GENERAL CLASS
           </div>
+          <div onClick={general} className="">readmore</div>
           <div className="my-[1rem] flex-col text-blue-300">
             <div>Tilaawah/Hifz</div>
             <div>Khattu/Imla</div>
@@ -92,7 +180,7 @@ function Home() {
             <div className="">
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,500</p><p className="text-[#E99625]">semester</p><p>N42,000</p></div>
               <div>
-                <button onMouseOver={notify} className="bg-[#441d49]  focus:animate-none hover:animate-none hover:opacity-50  border-dotted border-2 py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
+                <button  className="bg-[#441d49]  focus:animate-none hover:animate-none hover:opacity-50  border-dotted border-2 py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
                 <a href="http://wa.me/2348133128088">08133128088</a>
                 </button>
               </div>
@@ -100,16 +188,17 @@ function Home() {
           </div>
         </div>
         {/* class3 */}
-        <div className="my-[2rem] border drop-shadow-lg bg-[#431146]  rounded-lg font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
+        <div className="my-[2rem] border drop-shadow-lg bg-[#431146] pt-2  rounded-lg font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
           <div className="font-extrabold bg-[#441d49]  text-[#fdf7fb] w-[11.1rem]">
             JUZ MUJAADILAH
           </div>
+          <div onClick={juz} className="">readmore</div>
           <div className="my-[0rem] flex-col text-blue-300">
             <div className="">
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,000</p></div>
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">mon-fri</p><p className="text-[#E99625]">duration:</p><p>40min</p></div>
               <div className="p-3">
-                <button onMouseOver={notify} className="bg-[#441d49] border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
+                <button  className="bg-[#441d49] border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
                 <a href="http://wa.me/2348133128088">08133128088</a>
                 </button>
               </div>
@@ -118,10 +207,11 @@ function Home() {
         </div>
         {/* class4 */}
 
-        <div className="my-[2rem] border drop-shadow-lg bg-[#431146]  rounded-lg font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
+        <div className="my-[2rem] border drop-shadow-lg bg-[#431146] pt-2  rounded-lg font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[11rem] text-[1.1rem]">
             PRIVATE CLASS
           </div>
+          <div onClick={prive} className="">readmore</div>
           <div className="my-[1rem] flex-col text-blue-300">
             <div>Qiraa{" ' "}ah/Tilaawah</div>
             <div>Hifz/Khattu</div>
@@ -131,7 +221,7 @@ function Home() {
             <div className="">
             <div className="p-3 font-extrabold"><p>monthly</p><p className="text-[#E99625]">4 days per week</p><p>N36,000</p><p className="text-[#E99625]">duration:</p><p>1hr 30min</p></div>
               <div>
-                <button onMouseOver={notify} className="bg-[#441d49] border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
+                <button  className="bg-[#441d49] border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
                 <a href="http://wa.me/2348133128088">08133128088</a>
                 </button>
               </div>
@@ -139,10 +229,11 @@ function Home() {
           </div>
         </div>
         {/* class5 */}
-        <div className="my-[2rem] border drop-shadow-lg bg-[#431146]  rounded-lg font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
+        <div className="my-[2rem] border drop-shadow-lg bg-[#431146] pt-2 rounded-lg font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[11rem]">
             ADULT CLASS
           </div>
+          <div onClick={adult} className="">readmore</div>
           <div className="my-[1rem] flex-col text-blue-300">
             <div>Hifz/Arabiyyah</div>
             <div>Hadeeth/Imla</div>
@@ -153,7 +244,7 @@ function Home() {
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,500</p><p className="text-[#E99625]">semester</p><p>N42,000</p></div>
 
               <div>
-                <button  onMouseOver={notify} className="bg-[#441d49] border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
+                <button   className="bg-[#441d49] border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
                  <a href="http://wa.me/2348133128088">08133128088</a>
                 </button>
               </div>
@@ -161,10 +252,11 @@ function Home() {
           </div>
         </div>
         {/* class6 */}
-        <div className="my-[2rem] border drop-shadow-lg bg-[#431146]  rounded-lg font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
+        <div className="my-[2rem] border drop-shadow-lg bg-[#431146] pt-2 rounded-lg font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[10rem] text-[1.1rem]">
             KIDDIES-CLASS
           </div>
+          <div onClick={kids} className="">readmore</div>
           <div id="classdays" className="my-[1rem] flex-col text-blue-300">
             <div>Qiraa{" ' "}ah</div>
             <div>Aqeedah</div>
@@ -174,7 +266,7 @@ function Home() {
             <div>Tajweed</div>
             <div className="">
               <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,500</p><p className="text-[#E99625]">semester</p><p>N45,000</p></div>
-                <button onMouseOver={notify} className="bg-[#441d49] border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
+                <button  className="bg-[#441d49] border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
                 <a href="http://wa.me/2348133128088">08133128088</a>
                 </button>
             </div>
@@ -183,7 +275,7 @@ function Home() {
       </div>
 
       {/* section4 */}
-      {/* service days   from 153 - 165*/}
+      {/* service days   from 278 - 290*/}
       <div className="flex justify-center my-[2rem]">
         <div className="border-[0.2rem] rounded border-[#f2878c] font-semibold text-[#3a1642] text-center">
           <div className="font-extrabold bg-[#f2878c] text-[#fdf7fb] md:w-[45rem] sm:w-[40rem] text-[0.9rem]">
@@ -197,7 +289,7 @@ function Home() {
         </div>
       </div>
 
-      {/* carousel images  at 168 - 201 */}
+      {/* carousel div  at line  295 to 360 */}
       
 
 <div className="flex justify-center my-[2rem] px-[1rem]">
