@@ -27,8 +27,8 @@ function Home() {
   const tahfeez = () =>{
 
     Swal.fire({
-      title: "KIDDIES CLASSES",
-      text: "Modal with a custom image",
+      title: "TAHFEEZ CLASS",
+      text: "",
       imageUrl: "(../src/images/feed2.jpeg)",
       imageWidth: 400,
       imageHeight: 200,
@@ -41,8 +41,8 @@ function Home() {
   const general = () =>{
 
     Swal.fire({
-      title: "KIDDIES CLASSES",
-      text: "Modal with a custom image",
+      title: "GENERAL CLASS",
+      text: "",
       imageUrl: "(../src/images/feed2.jpeg)",
       imageWidth: 400,
       imageHeight: 200,
@@ -55,8 +55,8 @@ function Home() {
   const juz = () =>{
 
     Swal.fire({
-      title: "KIDDIES CLASSES",
-      text: "Modal with a custom image",
+      title: "JUZ-MUJAADILAH CLASS",
+      text: "",
       imageUrl: "(../src/images/feed2.jpeg)",
       imageWidth: 400,
       imageHeight: 200,
@@ -69,8 +69,8 @@ function Home() {
   const prive = () =>{
 
     Swal.fire({
-      title: "KIDDIES CLASSES",
-      text: "Modal with a custom image",
+      title: "PRIVATE CLASS",
+      text: "",
       imageUrl: "(../src/images/feed2.jpeg)",
       imageWidth: 400,
       imageHeight: 200,
@@ -83,8 +83,8 @@ function Home() {
   const adult = () =>{
 
     Swal.fire({
-      title: "KIDDIES CLASSES",
-      text: "Modal with a custom image",
+      title: "ADULT CLASS",
+      text: "",
       imageUrl: "(../src/images/feed2.jpeg)",
       imageWidth: 400,
       imageHeight: 200,
@@ -97,8 +97,8 @@ function Home() {
   const kids = () =>{
 
     Swal.fire({
-      title: "KIDDIES CLASSES",
-      text: "Modal with a custom image",
+      title: "KIDDIES CLASS",
+      text: "",
       imageUrl: "(../src/images/feed2.jpeg)",
       imageWidth: 400,
       imageHeight: 200,
