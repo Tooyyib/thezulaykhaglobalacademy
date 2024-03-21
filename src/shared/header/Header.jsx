@@ -51,7 +51,7 @@ const Header = () => {
         </button>
       </div>
       <div className="sm:my-[1rem] lg:my-[0rem]">
-        <button className="bg-[#fdb72f] py-2 px-4 border-dotted border-2 hover:opacity-50  focus:animate-none hover:animate-none  rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
+        <button className="bg-[#fdb72f] opacity-70 py-2 px-4 border-dotted border-2 hover:opacity-50  focus:animate-none hover:animate-none  rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
           <a href="https://gofund.me/4ccfdeb0">Donate</a>
         </button>
       </div>

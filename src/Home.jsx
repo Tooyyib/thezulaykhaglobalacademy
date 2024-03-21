@@ -57,12 +57,12 @@ function Home() {
     Swal.fire({
       title: "GRANDMAS CLASS",
       html: "Hifz,Khattu,Imla,Tajweed,Hadeeth,Arabiyyah,Tilaawah/Qiraa'ah,Adab,Aqeedah </br></br><strong>BUSY WIVES CLASS</strong></br></br>Hifz,Tilaawah,Tajweed",
-      imageUrl: "(../src/images/feed2.jpeg)",
+      imageUrl: "scr/images/zully.jpeg",
       imageWidth: 100,
       imageHeight: 100,
-      imageAlt: "feed2",
+      imageAlt: "zully",
       color: "white",
-      background: "#431146"
+      background: "#431146",
     });
   }
 
@@ -152,9 +152,9 @@ function Home() {
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[11.1rem]">
             TAHFEEZ CLASS 1
           </div>
-          <div onClick={tahfeez} className="text-yellow-200 cursor-pointer p-2">(read more)</div>
-          <div className="my-[0rem] flex-col bg-[#431146] rounded-lg">
-            <div className="">
+          <div onClick={tahfeez} className="text-yellow-200 cursor-pointer p-2 hover:opacity-50">(read more)</div>
+          <div className=" flex-col bg-[#431146] rounded-lg">
+            <div className="mt-[1rem]">
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p className="text-blue-300">N10,000</p></div>
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">mon-fri</p><p className="text-blue-300">weekends</p><p className="text-[#E99625]">duration:</p><p className="text-blue-300">40min</p></div>
               <div className="p-3">
@@ -171,10 +171,10 @@ function Home() {
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[10rem]">
             GENERAL CLASS
           </div>
-          <div onClick={general} className="text-yellow-200 cursor-pointer p-2">(read more)</div>
+          <div onClick={general} className="text-yellow-200 cursor-pointer p-2 hover:opacity-50">(read more)</div>
           <div className="my-[1rem] flex-col text-blue-300">
             <div className="">
-            <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,500</p><p className="text-[#E99625]">semester</p><p>N42,000</p></div>
+            <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,500</p><p className="text-[#E99625]">semester</p><p>N42,000</p><p>sat and sun</p></div>
               <div>
                 <button  className="bg-[#441d49] animate-bounce focus:animate-none hover:animate-none hover:opacity-50  border-dotted border-2 py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
                 <a href="http://wa.me/2348133128088">08133128088</a>
@@ -188,9 +188,9 @@ function Home() {
           <div className="font-extrabold bg-[#441d49]  text-[#fdf7fb] w-[11.1rem] sm:flex-justify-center">
             GRANDMAS... CLASS
           </div>
-          <div onClick={grandMa} className="text-yellow-200 cursor-pointer p-2">(read more)</div>
-          <div className="my-[0rem] flex-col text-blue-300">
-            <div className="">
+          <div onClick={grandMa} className="text-yellow-200 cursor-pointer p-2 hover:opacity-50">(read more)</div>
+          <div className="flex-col text-blue-300">
+            <div className="mt-[1rem]">
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,000</p></div>
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">mon-fri</p><p className="text-[#E99625]">duration:</p><p>40min</p></div>
               <div className="p-3">
@@ -207,7 +207,7 @@ function Home() {
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[11rem] text-[1.1rem]">
             PRIVATE CLASS
           </div>
-          <div onClick={prive} className="text-yellow-200 cursor-pointer p-2">(read more)</div>
+          <div onClick={prive} className="text-yellow-200 cursor-pointer p-2 hover:opacity-50">(read more)</div>
           <div className="my-[1rem] flex-col text-blue-300">
             <div className="">
             <div className="p-3 font-extrabold"><p>monthly</p><p className="text-[#E99625]">4 days per week</p><p>N36,000</p><p className="text-[#E99625]">duration:</p><p>1hr 30min</p></div>
@@ -224,7 +224,7 @@ function Home() {
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[11rem]">
             TAHFEEZ CLASS 2
           </div>
-          <div onClick={tahfeez2} className="text-yellow-200 cursor-pointer p-2">(read more)</div>
+          <div onClick={tahfeez2} className="text-yellow-200 cursor-pointer p-2 hover:opacity-50">(read more)</div>
           <div className="my-[1rem] flex-col text-blue-300">
         
             <div className="">
@@ -243,7 +243,7 @@ function Home() {
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[10rem] text-[1.1rem]">
             KIDDIES-CLASS
           </div>
-          <div onClick={kids} className="text-yellow-200 cursor-pointer p-2">(read more)</div>
+          <div onClick={kids} className="text-yellow-200 cursor-pointer p-2 hover:opacity-50">(read more)</div>
           <div id="classdays" className="my-[1rem] flex-col text-blue-300">
             <div className="">
               <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,500</p><p className="text-[#E99625]">semester</p><p>N45,000</p></div>
@@ -278,35 +278,35 @@ function Home() {
     
     <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
 
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+        <div className="hidden duration-1000 ease-in-out" data-carousel-item>
             <img src={quote1} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="quote1" />
         </div>
         
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+        <div className="hidden duration-1000 ease-in-out" data-carousel-item>
             <img src={feed2} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="feed2" />
         </div>
         
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+        <div className="hidden duration-1000 ease-in-out" data-carousel-item>
             <img src={feed1} className="absolute block w-full sm:h-[26rem] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="feed1" />
         </div>
         
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+        <div className="hidden duration-1000 ease-in-out" data-carousel-item>
             <img src={speech2} className="absolute block w-full sm:h-[28rem] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="speech2" />
         </div>
         
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+        <div className="hidden duration-1000  ease-in-out" data-carousel-item>
             <img src={speech1} className="absolute block w-full sm:h-[28rem] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="speech1" />
         </div>
 
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+        <div className="hidden duration-1000 ease-in-out" data-carousel-item>
             <img src={reverts} className="absolute block w-full sm:h-[26rem] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="reverts" />
         </div>
 
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+        <div className="hidden duration-1000 ease-in-out" data-carousel-item>
             <img src={heroes} className="absolute block w-full sm:h-[26rem] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="heroes" />
         </div>
 
-        <div className="hidden duration-700 ease-in-out" data-carousel-item>
+        <div className="hidden duration-1000 ease-in-out" data-carousel-item>
             <img src={ramahif} className="absolute block w-full sm:h-[26rem] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="ramahif" />
         </div>
     </div>
