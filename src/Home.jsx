@@ -27,7 +27,7 @@ function Home() {
   const tahfeez = () =>{
 
     Swal.fire({
-      title: "TAHFEEZ CLASS",
+      title: "TAHFEEZ CLASS 1",
       html: "(General Classes) </br></br> Juz Mujaadila </br></br> Time: 6:15-7am",
       imageUrl: "(/src/images/feed2.jpeg)",
       imageWidth: 100,
@@ -84,7 +84,7 @@ function Home() {
 
     Swal.fire({
       title: "TAHFEEZ CLASS 2",
-      html: "(private Classes) </br></br> Juz Mujaadila </br></br> Time: 6:15-7am",
+      html: "(private Classes) </br></br> Any surah </br></br> Time: Is negotiable",
       imageUrl: "(../src/images/feed2.jpeg)",
       imageWidth: 100,
       imageHeight: 100,
@@ -146,27 +146,8 @@ function Home() {
       </div>
                           {/* class details line 145 to 275 */}
       <div className=" md:block justify-center  gap-5 lg:flex  justify-center  sm:block p-5">
-        {/* class1 */}
 
-        <div className="my-[2rem] border drop-shadow-lg bg-[#431146]  rounded-lg font-semibold text-[#3a1642] text-center pt-2  hover:-translate-y-1 duration-700">
-          <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[11.1rem]">
-            TAHFEEZ CLASS 1
-          </div>
-          <div onClick={tahfeez} className="text-yellow-200 cursor-pointer p-2 hover:opacity-50">(read more)</div>
-          <div className=" flex-col bg-[#431146] rounded-lg">
-            <div className="mt-[1rem]">
-            <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p className="text-blue-300">N10,000</p></div>
-            <div className="p-3 font-extrabold"><p className="text-[#E99625]">mon-fri</p><p className="text-blue-300">weekends</p><p className="text-[#E99625]">duration:</p><p className="text-blue-300">40min</p></div>
-              <div className="p-3">
-                <button  className="bg-[#441d49] animate-bounce border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none   py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
-                <a href="http://wa.me/2348133128088">08133128088</a>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* class2 */}
-        {/* #f2878c */}
+        {/* genral class */}
         <div className="my-[2rem] border drop-shadow-lg bg-[#431146] pt-2  rounded-lg font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
           <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[10rem]">
             GENERAL CLASS
@@ -174,7 +155,7 @@ function Home() {
           <div onClick={general} className="text-yellow-200 cursor-pointer p-2 hover:opacity-50">(read more)</div>
           <div className="my-[1rem] flex-col text-blue-300">
             <div className="">
-            <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,500</p><p className="text-[#E99625]">semester</p><p>N42,000</p><p>sat and sun</p></div>
+            <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,000</p><p className="text-[#E99625]">semester</p><p>N42,000</p><p>sat and sun</p></div>
               <div>
                 <button  className="bg-[#441d49] animate-bounce focus:animate-none hover:animate-none hover:opacity-50  border-dotted border-2 py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
                 <a href="http://wa.me/2348133128088">08133128088</a>
@@ -183,7 +164,81 @@ function Home() {
             </div>
           </div>
         </div>
-        {/* class3 */}
+       
+        {/* private class */}
+        <div className="my-[2rem] border drop-shadow-lg bg-[#431146] pt-2  rounded-lg font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
+          <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[11rem] text-[1.1rem]">
+            PRIVATE CLASS
+          </div>
+          <div onClick={prive} className="text-yellow-200 cursor-pointer p-2 hover:opacity-50">(read more)</div>
+          <div className="my-[1rem] flex-col text-blue-300">
+            <div className="">
+            <div className="p-3 font-extrabold"><p>monthly</p><p className="text-[#E99625]">4 days per week</p><p>N36,000</p><p className="text-[#E99625]">duration:</p><p>1hr 30min</p></div>
+              <div>
+                <button  className="bg-[#441d49] animate-bounce border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
+                <a href="http://wa.me/2348133128088">08133128088</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+        {/* tahfeez class 1 */}
+        <div className="my-[2rem] border drop-shadow-lg bg-[#431146]  rounded-lg font-semibold text-[#3a1642] text-center pt-2  hover:-translate-y-1 duration-700">
+          <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[11.1rem]">
+            TAHFEEZ CLASS 1
+          </div>
+          <div onClick={tahfeez} className="text-yellow-200 cursor-pointer p-2 hover:opacity-50">(read more)</div>
+          <div className=" flex-col bg-[#431146] rounded-lg">
+            <div className="mt-[1rem]">
+            <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p className="text-blue-300">N12,000</p></div>
+            <div className="p-3 font-extrabold"><p className="text-[#E99625]">mon-fri</p><p className="text-[#E99625]">duration:</p><p className="text-blue-300">40min</p></div>
+              <div className="p-3">
+                <button  className="bg-[#441d49] animate-bounce border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none   py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
+                <a href="http://wa.me/2348133128088">08133128088</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* tahfeez class 2 */}
+        <div className="my-[2rem] border drop-shadow-lg bg-[#431146] pt-2 rounded-lg font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
+          <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[11rem]">
+            TAHFEEZ CLASS 2
+          </div>
+          <div onClick={tahfeez2} className="text-yellow-200 cursor-pointer p-2 hover:opacity-50">(read more)</div>
+          <div className="my-[1rem] flex-col text-blue-300">
+        
+            <div className="">
+            <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly <br />weekends</p><p>N10,000</p><p className="text-[#E99625]">weekdays</p><p>N18,000</p></div>
+
+              <div>
+                <button   className="bg-[#441d49] animate-bounce border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
+                 <a href="http://wa.me/2348133128088">08133128088</a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* kiddies class */}
+        <div className="my-[2rem] border drop-shadow-lg bg-[#431146] pt-2 rounded-lg font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
+          <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[10rem] text-[1.1rem]">
+            KIDDIES-CLASS
+          </div>
+          <div onClick={kids} className="text-yellow-200 cursor-pointer p-2 hover:opacity-50">(read more)</div>
+          <div id="classdays" className="my-[1rem] flex-col text-blue-300">
+            <div className="">
+              <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,500</p><p className="text-[#E99625]">semester</p><p>N45,000</p></div>
+                <button  className="bg-[#441d49] animate-bounce border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
+                <a href="http://wa.me/2348133128088">08133128088</a>
+                </button>
+            </div>
+          </div>
+        </div>
+
+        {/* grandmas and busy wives class */}
         <div className="my-[2rem] border drop-shadow-lg bg-[#431146] pt-2  rounded-lg font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
           <div className="font-extrabold bg-[#441d49]  text-[#fdf7fb] w-[11.1rem] sm:flex-justify-center">
             GRANDMAS... CLASS
@@ -201,61 +256,9 @@ function Home() {
             </div>
           </div>
         </div>
-        {/* class4 */}
-
-        <div className="my-[2rem] border drop-shadow-lg bg-[#431146] pt-2  rounded-lg font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
-          <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[11rem] text-[1.1rem]">
-            PRIVATE CLASS
-          </div>
-          <div onClick={prive} className="text-yellow-200 cursor-pointer p-2 hover:opacity-50">(read more)</div>
-          <div className="my-[1rem] flex-col text-blue-300">
-            <div className="">
-            <div className="p-3 font-extrabold"><p>monthly</p><p className="text-[#E99625]">4 days per week</p><p>N36,000</p><p className="text-[#E99625]">duration:</p><p>1hr 30min</p></div>
-              <div>
-                <button  className="bg-[#441d49] animate-bounce border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
-                <a href="http://wa.me/2348133128088">08133128088</a>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* class5 */}
-        <div className="my-[2rem] border drop-shadow-lg bg-[#431146] pt-2 rounded-lg font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
-          <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[11rem]">
-            TAHFEEZ CLASS 2
-          </div>
-          <div onClick={tahfeez2} className="text-yellow-200 cursor-pointer p-2 hover:opacity-50">(read more)</div>
-          <div className="my-[1rem] flex-col text-blue-300">
-        
-            <div className="">
-            <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,500</p><p className="text-[#E99625]">semester</p><p>N42,000</p></div>
-
-              <div>
-                <button   className="bg-[#441d49] animate-bounce border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
-                 <a href="http://wa.me/2348133128088">08133128088</a>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* class6 */}
-        <div className="my-[2rem] border drop-shadow-lg bg-[#431146] pt-2 rounded-lg font-semibold text-[#3a1642] text-center hover:-translate-y-1 duration-700">
-          <div className="font-extrabold bg-[#441d49] text-[#fdf7fb] w-[10rem] text-[1.1rem]">
-            KIDDIES-CLASS
-          </div>
-          <div onClick={kids} className="text-yellow-200 cursor-pointer p-2 hover:opacity-50">(read more)</div>
-          <div id="classdays" className="my-[1rem] flex-col text-blue-300">
-            <div className="">
-              <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,500</p><p className="text-[#E99625]">semester</p><p>N45,000</p></div>
-                <button  className="bg-[#441d49] animate-bounce border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
-                <a href="http://wa.me/2348133128088">08133128088</a>
-                </button>
-            </div>
-          </div>
-        </div>
       </div>
 
-      {/* section4 */}
+      
       {/* service days   from 278 - 290*/}
       <div className="flex justify-center my-[2rem]">
         <div className="border-[0.2rem] rounded border-[#f2878c] font-semibold text-[#3a1642] text-center">
