@@ -11,6 +11,7 @@ import feed2 from "../src/images/feed2.jpeg";
 import reverts from "../src/images/reverts.jpeg";
 import heroes from "../src/images/heroes.jpeg";
 import ramahif from "../src/images/ramahif.jpeg";
+import greeter from "../src/images/greeter.jpg"
 
 // import { ToastContainer, toast } from 'react-toastify';
 // import 'react-toastify/dist/ReactToastify.css';
@@ -332,6 +333,10 @@ function Home() {
         <div className="hidden duration-1000 ease-in-out" data-carousel-item>
             <img src={ramahif} className="absolute block w-full sm:h-[26rem] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="ramahif" />
         </div>
+
+        <div className="hidden duration-1000 ease-in-out" data-carousel-item>
+            <img src={greeter} className="absolute block w-full sm:h-[26rem] -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="ramahif" />
+        </div>
     </div>
     
     <div className="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
@@ -343,6 +348,7 @@ function Home() {
         <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 6" data-carousel-slide-to="5"></button>
         <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 7" data-carousel-slide-to="6"></button>
         <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 8" data-carousel-slide-to="7"></button>
+        <button type="button" className="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 9" data-carousel-slide-to="8"></button>
     </div>
   
     <button type="button" className="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
