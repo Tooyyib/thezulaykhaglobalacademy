@@ -99,7 +99,7 @@ function Home() {
 
     Swal.fire({
       title: "KIDDIES CLASS",
-      html: "(General Classes) </br>Pre-Nursery,nursery,Primary </br></br> Notice: two or more kids attract 5% discount on total fee per semester only.",
+      html: "(General Classes) </br>Pre-Nursery,nursery,Primary </br></br>Time:10-12:30pm <br/><br/> Notice: two or more kids attract 5% discount on total fee per semester only.",
       imageUrl: "(../src/images/feed2.jpeg)",
       imageWidth: 100,
       imageHeight: 100,
@@ -268,7 +268,7 @@ function Home() {
           <div className="my-[1rem]">
             <div>Saturdays & Sundays</div>
             <div className="bg-[#3a1642] text-[#fdf7fb] font-bold">Time: WAT Zone</div>
-            <div>8:00am-10:30am</div>
+            <div>8-10:30am</div>
           </div>
         </div>
       </div>
