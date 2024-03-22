@@ -27,7 +27,7 @@ function Home() {
 
     Swal.fire({
       title: "Registration Policies",
-      html: "(1) compulsory registration fee of 3,000 should be made to the account of the madrasah before given test, after which the student will be added to her appropriate class. <br/><br/>(2)Evidence of payment should be sent to the accountant on whatsapp via 08133128088 after which a form will be sent to the student to fill. <br/><br/>(3)payment of madrasah fee starts from the beginning of every month till the 29th day of the month.<br/><br/>(4)Anyone who will not be able to meetup payment deadline should talk to the accountant before the due date as delayed payment attracts 2,000 fine.<br/><br/>(5)Anyone who refuses to pay without pre-informing the accountant maybe removed from the class group.<br/><br/>(6)Please try to participate actively and follow the rules and regulations of the class.",
+      html: "(1)compulsory registration fee of 3,000 should be made to the account of the madrasah before given test, after which the student will be added to her appropriate class. <br/><br/>(2)Evidence of payment should be sent to the accountant on whatsapp via 08133128088 after which a form will be sent to the student to fill. <br/><br/>(3)payment of madrasah fee starts from the beginning of every month till the 29th day of the month.<br/><br/>(4)Anyone who will not be able to meetup payment deadline should talk to the accountant before the due date as delayed payment attracts 2,000 fine.<br/><br/>(5)Anyone who refuses to pay without pre-informing the accountant maybe removed from the class group.<br/><br/>(6)Please try to participate actively and follow the rules and regulations of the class.",
       imageWidth: 100,
       imageHeight: 100,
       imageAlt: "feed2",
@@ -43,7 +43,7 @@ function Home() {
     Swal.fire({
       title: "TAHFEEZ CLASS 1",
       html: "(General Classes) </br></br> Juz Mujaadila </br></br> Time: 6:15-7am",
-      imageUrl: "(/src/images/feed2.jpeg)",
+      imageUrl: "(../src/images/feed2.jpeg)",
       imageWidth: 100,
       imageHeight: 100,
       imageAlt: "feed2",

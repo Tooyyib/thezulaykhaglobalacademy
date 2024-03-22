@@ -40,10 +40,10 @@ const Header = () => {
     </div>
     <div className={`${drop ? 'block lg:flex absolute lg:static z-20  top-[75px] shadow-lg space-y-3 py-3': 'hidden lg:flex'} gap-10 bg-[#5f266d] w-full lg:bg-transparent lg:w-auto items-center text-[1.1rem]`}>
       <div>
-        <a href="/">Home</a>
+        <a className="hover:opacity-50" href="/">Home</a>
       </div>
-      <div><button><a href="#contactus">Contact us</a></button></div>
-      <div><button><a href="#aboutus">About us</a></button></div>
+      <div><button><a className="hover:opacity-50" href="#contactus">Contact us</a></button></div>
+      <div><button><a className="hover:opacity-50" href="#aboutus">About us</a></button></div>
       {/* <div><a href="/Enlightment">Spiritual Enlightment</a></div> */}
       <div className="sm:my-[1rem] lg:my-[0rem]">
         <button className="py-2 px-4 bg-[#38103d] border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  text-[#fdfdfd] font-bold rounded hover:-translate-y-1 duration-700 text-[1rem]">
