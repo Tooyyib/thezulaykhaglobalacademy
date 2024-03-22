@@ -23,6 +23,20 @@ import Swal from 'sweetalert2'
 function Home() {
   // const notify = () => toast("please call or message this number!");
 
+  const policy = () =>{
+
+    Swal.fire({
+      title: "Registration Policies",
+      html: "(1) compulsory registration fee of 3,000 should be made to the account of the madrasah before given test, after which the student will be added to her appropriate class. <br/><br/>(2)Evidence of payment should be sent to the accountant on whatsapp via 08133128088 after which a form will be sent to the student to fill. <br/><br/>(3)payment of madrasah fee starts from the beginning of every month till the 29th day of the month.<br/><br/>(4)Anyone who will not be able to meetup payment deadline should talk to the accountant before the due date as delayed payment attracts 2,000 fine.<br/><br/>(5)Anyone who refuses to pay without pre-informing the accountant maybe removed from the class group.<br/><br/>(6)Please try to participate actively and follow the rules and regulations of the class.",
+      imageWidth: 100,
+      imageHeight: 100,
+      imageAlt: "feed2",
+      color: "white",
+      background: "#431146"
+    });
+  }
+
+
 
   const tahfeez = () =>{
 
@@ -135,6 +149,12 @@ function Home() {
         </div>
         <div className="text-[1rem]">Enroll your family for better future</div>
       </div>
+
+       {/* registration policy */}
+
+       <div className="text-center font-semibold my-[2rem]">
+        <p>kindly <span className="text-blue-500 cursor-pointer hover:opacity-50" onClick={policy}>read</span> our registration policy</p>
+       </div>
 
       {/* section3  available classes*/}
       <div className="mt-[3rem] flex justify-center">
