@@ -146,8 +146,7 @@ function Home() {
       <div className="text-center mt-[2rem]">
       {/* <ToastContainer /> */}
         <div className="text-[1rem]">
-          for morally upright muslim sisters,wives and
-          mothers
+          for muslim sisters,wives,mothers and kids.
         </div>
         <div className="text-[1rem]">Enroll your family for better future</div>
       </div>
