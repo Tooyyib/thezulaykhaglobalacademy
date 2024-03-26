@@ -21,7 +21,11 @@ import Swal from 'sweetalert2'
 
 
 
+
+
+
 function Home() {
+
   // const notify = () => toast("please call or message this number!");
 
   const policy = () =>{
@@ -29,6 +33,7 @@ function Home() {
     Swal.fire({
       title: "Registration Policies",
       html: "(1)compulsory registration fee of 3,000 should be made to the account of the madrasah before given test, after which the student will be added to her appropriate class. <br/><br/>(2)Evidence of payment should be sent to the accountant on whatsapp via 08133128088 after which a form will be sent to the student to fill. <br/><br/>(3)payment of madrasah fee starts from the beginning of every month till the 29th day of the month.<br/><br/>(4)Anyone who will not be able to meetup payment deadline should talk to the accountant before the due date as delayed payment attracts 2,000 fine.<br/><br/>(5)Anyone who refuses to pay without pre-informing the accountant maybe removed from the class group.<br/><br/>(6)Please try to participate actively and follow the rules and regulations of the class.",
+      imageUrl: "https://i.postimg.cc/RVyytphd/zully-modified.png",
       imageWidth: 100,
       imageHeight: 100,
       imageAlt: "feed2",
@@ -44,7 +49,7 @@ function Home() {
     Swal.fire({
       title: "TAHFEEZ CLASS 1",
       html: "(General Classes) </br></br> Juz Mujaadila </br></br> Time: 6:15-7am",
-      imageUrl: "(../src/images/feed2.jpeg)",
+      imageUrl: "https://i.postimg.cc/RVyytphd/zully-modified.png",
       imageWidth: 100,
       imageHeight: 100,
       imageAlt: "feed2",
@@ -58,7 +63,7 @@ function Home() {
     Swal.fire({
       title: "GENERAL CLASS",
       html: "Hifz,Khattu,Imla,Tajweed,Adab,Hadeeth,Arabiyyah,</br> Tilaawah/Qiraa'ah, 8.Adab </br></br> Time: 8:00-10:30am",
-      imageUrl: "(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4NLe0ykMB_P3KP6z_NxB5TExAatUWW8VqsbXzZGNJuA&s)",
+      imageUrl: "https://i.postimg.cc/RVyytphd/zully-modified.png",
       imageWidth: 100,
       imageHeight: 100,
       imageAlt: "encrypted",
@@ -72,7 +77,7 @@ function Home() {
     Swal.fire({
       title: "GRANDMAS CLASS",
       html: "Hifz,Khattu,Imla,Tajweed,Hadeeth,Arabiyyah,Tilaawah/Qiraa'ah,Adab,Aqeedah </br></br><strong>BUSY WIVES CLASS</strong></br></br>Hifz,Tilaawah,Tajweed",
-      imageUrl: "scr/images/zully.jpeg",
+      imageUrl: "https://i.postimg.cc/RVyytphd/zully-modified.png",
       imageWidth: 100,
       imageHeight: 100,
       imageAlt: "zully",
@@ -86,7 +91,7 @@ function Home() {
     Swal.fire({
       title: "PRIVATE CLASS",
       html: "Hifz,Khattu,Imla,Tajweed,Hadeeth,Arabiyyah,Tafsir,</br> Tilaawah/Qiraa'ah, 8.Adab  </br></br>Note: class days are negotiable </br></br>Once Weekly: 12,000 </br>Twice Weekly: 20,000 </br>Thrice Weekly: 28,000 </br>Monthly: 36,000",
-      imageUrl: "(../src/images/feed2.jpeg)",
+      imageUrl: "https://i.postimg.cc/RVyytphd/zully-modified.png",
       imageWidth: 100,
       imageHeight: 100,
       imageAlt: "feed2",
@@ -100,7 +105,7 @@ function Home() {
     Swal.fire({
       title: "TAHFEEZ CLASS 2",
       html: "(private Classes) </br></br> Any surah </br></br> Time: Is negotiable",
-      imageUrl: "(../src/images/feed2.jpeg)",
+      imageUrl: "https://i.postimg.cc/RVyytphd/zully-modified.png",
       imageWidth: 100,
       imageHeight: 100,
       imageAlt: "feed2",
@@ -115,7 +120,7 @@ function Home() {
     Swal.fire({
       title: "KIDDIES CLASS",
       html: "(General Classes) </br>Pre-Nursery,nursery,Primary </br></br>Time:10-12:30pm <br/><br/> Notice: two or more kids attract 5% discount on total fee per semester only.",
-      imageUrl: "(../src/images/feed2.jpeg)",
+      imageUrl: "https://i.postimg.cc/RVyytphd/zully-modified.png",
       imageWidth: 100,
       imageHeight: 100,
       imageAlt: "feed2",
@@ -370,6 +375,7 @@ function Home() {
 </div>
 
 </div>
+
 
       {/*marquee-Element..... className activities  at 255 - 276 */}
       
