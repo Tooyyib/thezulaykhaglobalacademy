@@ -44,7 +44,7 @@ function Home() {
 
     Swal.fire({
       title: "TAHFEEZ CLASS 1",
-      html: "(General Classes) </br></br> Juz Mujaadila </br></br> Time: 6:15-7am",
+      html: "(General Classes) </br></br> Juz Mujaadila </br></br>Monthly: 12,000<br><br/> Time: 6:15-7am",
       imageUrl: "https://i.postimg.cc/RVyytphd/zully-modified.png",
       imageWidth: 100,
       imageHeight: 100,
@@ -58,7 +58,7 @@ function Home() {
 
     Swal.fire({
       title: "GENERAL CLASS",
-      html: "Hifz,Khattu,Imla,Tajweed,Adab,Hadeeth,Arabiyyah,</br> Tilaawah/Qiraa'ah, 8.Adab </br></br> Time: 8:00-10:30am",
+      html: "Hifz,Khattu,Imla,Tajweed,Adab,Hadeeth,Arabiyyah,</br> Tilaawah/Qiraa'ah, 8.Adab </br></br>Monthly: 12,000<br><br/>Semester: 42,000<br><br/> Time: 8:00-10:30am",
       imageUrl: "https://i.postimg.cc/RVyytphd/zully-modified.png",
       imageWidth: 100,
       imageHeight: 100,
@@ -72,7 +72,7 @@ function Home() {
 
     Swal.fire({
       title: "GRANDMAS CLASS",
-      html: "Hifz,Khattu,Imla,Tajweed,Hadeeth,Arabiyyah,Tilaawah/Qiraa'ah,Adab,Aqeedah </br></br><strong>BUSY WIVES CLASS</strong></br></br>Hifz,Tilaawah,Tajweed",
+      html: "Hifz,Khattu,Imla,Tajweed,Hadeeth,Arabiyyah,Tilaawah/Qiraa'ah,Adab,Aqeedah <br/><br/>Monthly: 12,000 <br/><br/><strong>BUSY WIVES CLASS</strong></br></br>Hifz,Tilaawah,Tajweed",
       imageUrl: "https://i.postimg.cc/RVyytphd/zully-modified.png",
       imageWidth: 100,
       imageHeight: 100,
@@ -86,7 +86,7 @@ function Home() {
 
     Swal.fire({
       title: "PRIVATE CLASS",
-      html: "Hifz,Khattu,Imla,Tajweed,Hadeeth,<br/> Arabiyyah,Tafsir,</br> Tilaawah/Qiraa'ah, 8.Adab  </br></br>Note: class days are negotiable </br></br>Once Weekly: 12,000 </br>Twice Weekly: 20,000 </br>Thrice Weekly: 28,000 </br>Monthly: 36,000",
+      html: "Hifz,Khattu,Imla,Tajweed,Hadeeth,<br/> Arabiyyah,Tafsir,</br> Tilaawah/Qiraa'ah, 8.Adab <br/><br/>Note: class days are negotiable </br></br>Once Weekly: 12,000 </br>Twice Weekly: 20,000 </br>Thrice Weekly: 28,000 </br>Monthly: 36,000",
       imageUrl: "https://i.postimg.cc/RVyytphd/zully-modified.png",
       imageWidth: 100,
       imageHeight: 100,
@@ -100,7 +100,7 @@ function Home() {
 
     Swal.fire({
       title: "TAHFEEZ CLASS 2",
-      html: "(private Classes) </br></br> Any surah </br></br> Time: Is negotiable",
+      html: "(private Classes) </br></br> Any surah <br></br>Monthly:10,000<br/><br/>Weekdays: 18,000<br/><br/> Time: Is negotiable",
       imageUrl: "https://i.postimg.cc/RVyytphd/zully-modified.png",
       imageWidth: 100,
       imageHeight: 100,
@@ -115,7 +115,7 @@ function Home() {
 
     Swal.fire({
       title: "KIDDIES CLASS",
-      html: "(General Classes) </br>Pre-Nursery,nursery,Primary </br></br>Time:10-12:30pm <br/><br/> Notice: two or more kids attract 5% discount on total fee per semester only.",
+      html: "(General Classes) </br>Pre-Nursery,nursery,Primary </br></br>Monthly: 12,500<br/><br/>Semester: 45,000<br/><br/>Time:10-12:30pm <br/><br/> Notice: two or more kids attract 5% discount on total fee per semester only.",
       imageUrl: "https://i.postimg.cc/RVyytphd/zully-modified.png",
       imageWidth: 100,
       imageHeight: 100,
@@ -177,7 +177,7 @@ function Home() {
           </div>
           <div onClick={general} className="text-yellow-200 cursor-pointer p-2 hover:opacity-50">(read more)</div>
           <div className="my-[1rem] flex-col text-blue-300">
-            <div className="">
+            <div className="p-2">
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,000</p><p className="text-[#E99625]">semester</p><p>N42,000</p><p>sat and sun</p></div>
               <div>
                 <button  className="bg-[#441d49] animate-bounce focus:animate-none hover:animate-none hover:opacity-50  border-dotted border-2 py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
@@ -195,8 +195,8 @@ function Home() {
           </div>
           <div onClick={prive} className="text-yellow-200 cursor-pointer p-2 hover:opacity-50">(read more)</div>
           <div className="my-[1rem] flex-col text-blue-300">
-            <div className="">
-            <div className="p-3 font-extrabold"><p>monthly</p><p className="text-[#E99625]">4 days per week</p><p>N36,000</p><p className="text-[#E99625]">duration:</p><p>1hr 30min</p></div>
+            <div className="p-2">
+            <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N36,000</p><p className="text-[#E99625]">duration:</p><p>1hr 30min</p></div>
               <div>
                 <button  className="bg-[#441d49] animate-bounce border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
                 <a href="http://wa.me/2348133128088">08133128088</a>
@@ -214,7 +214,7 @@ function Home() {
           <div onClick={tahfeez} className="text-yellow-200 cursor-pointer p-2 hover:opacity-50">(read more)</div>
           <div className=" flex-col bg-[#431146] rounded-lg">
             <div className="mt-[1rem]">
-            <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p className="text-blue-300">N12,000</p></div>
+            <div className="p-4 font-extrabold"><p className="text-[#E99625]">monthly</p><p className="text-blue-300">N12,000</p></div>
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">mon-fri</p><p className="text-[#E99625]">duration:</p><p className="text-blue-300">40min</p></div>
               <div className="p-3">
                 <button  className="bg-[#441d49] animate-bounce border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none   py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
@@ -233,7 +233,7 @@ function Home() {
           <div onClick={tahfeez2} className="text-yellow-200 cursor-pointer p-2 hover:opacity-50">(read more)</div>
           <div className="my-[1rem] flex-col text-blue-300">
         
-            <div className="">
+            <div className="p-2">
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly <br />weekends</p><p>N10,000</p><p className="text-[#E99625]">weekdays</p><p>N18,000</p></div>
 
               <div>
@@ -282,7 +282,7 @@ function Home() {
       </div>
       
       
-      {/* service days   from 278 - 290*/}
+      {/* class days   from 278 - 290*/}
       <div className="flex justify-center my-[2rem] ">
         <div className="">
         <div className="border-[0.2rem] rounded border-[#f2878c] font-semibold text-[#3a1642] text-center sm:w-[20rem] md:w-[40rem]">
