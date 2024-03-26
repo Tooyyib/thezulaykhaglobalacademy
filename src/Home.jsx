@@ -86,7 +86,7 @@ function Home() {
 
     Swal.fire({
       title: "PRIVATE CLASS",
-      html: "Hifz,Khattu,Imla,Tajweed,Hadeeth,Arabiyyah,Tafsir,</br> Tilaawah/Qiraa'ah, 8.Adab  </br></br>Note: class days are negotiable </br></br>Once Weekly: 12,000 </br>Twice Weekly: 20,000 </br>Thrice Weekly: 28,000 </br>Monthly: 36,000",
+      html: "Hifz,Khattu,Imla,Tajweed,Hadeeth,<br/> Arabiyyah,Tafsir,</br> Tilaawah/Qiraa'ah, 8.Adab  </br></br>Note: class days are negotiable </br></br>Once Weekly: 12,000 </br>Twice Weekly: 20,000 </br>Thrice Weekly: 28,000 </br>Monthly: 36,000",
       imageUrl: "https://i.postimg.cc/RVyytphd/zully-modified.png",
       imageWidth: 100,
       imageHeight: 100,
@@ -146,7 +146,7 @@ function Home() {
       <div className="text-center mt-[2rem]">
       {/* <ToastContainer /> */}
         <div className="text-[1rem]">
-          Strictly for disciplined and morally upright muslim sisters,wives and
+          for morally upright muslim sisters,wives and
           mothers
         </div>
         <div className="text-[1rem]">Enroll your family for better future</div>
