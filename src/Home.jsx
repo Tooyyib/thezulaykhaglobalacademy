@@ -100,7 +100,7 @@ function Home() {
 
     Swal.fire({
       title: "TAHFEEZ CLASS 2",
-      html: "(private Classes) </br></br> Any surah <br></br>Monthly:10,000<br/><br/>Weekdays: 18,000<br/><br/> Time: Is negotiable",
+      html: "(private Classes) </br></br> Any surah <br></br>Weekends:10,000<br/><br/>Weekdays: 18,000<br/><br/> Time: Is negotiable",
       imageUrl: "https://i.postimg.cc/RVyytphd/zully-modified.png",
       imageWidth: 100,
       imageHeight: 100,
@@ -233,7 +233,7 @@ function Home() {
           <div className="my-[1rem] flex-col text-blue-300">
         
             <div className="p-2">
-            <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly <br />weekends</p><p>N10,000</p><p className="text-[#E99625]">weekdays</p><p>N18,000</p></div>
+            <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly <br />Weekdays</p><p>N10,000</p><p className="text-[#E99625]">weekends</p><p>N18,000</p></div>
 
               <div>
                 <button   className="bg-[#441d49] animate-bounce border-dotted border-2 hover:opacity-50 focus:animate-none hover:animate-none  py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
