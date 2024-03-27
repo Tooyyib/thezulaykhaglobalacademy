@@ -57,7 +57,7 @@ const Footer = () => {
           className="h-[2rem] w-[2rem] rounded-full"
         />
         <div>
-          <a href="madrasahzulaykha@gmail.com">email</a>
+          <a href="madrasahzulaykha@gmail.com">madrasahzulaykha@gmail.com</a>
         </div>
       </div>
       <div className="flex gap-2">
@@ -68,7 +68,7 @@ const Footer = () => {
         />
         <div>
           <a href="https://web.facebook.com/Madrasatuzulaykha/about">
-            zulaykha_Global
+          The zulaykha Global Academy
           </a>
         </div>
       </div>

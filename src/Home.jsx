@@ -86,7 +86,7 @@ function Home() {
 
     Swal.fire({
       title: "PRIVATE CLASS",
-      html: "Hifz,Khattu,Imla,Tajweed,Hadeeth,<br/> Arabiyyah,Tafsir,</br> Tilaawah/Qiraa'ah, 8.Adab <br/><br/>Note: class days are negotiable </br></br>Once Weekly: 12,000 </br>Twice Weekly: 20,000 </br>Thrice Weekly: 28,000 </br>Monthly: 36,000",
+      html: "Hifz,Khattu,Imla,Tajweed,Hadeeth,<br/> Arabiyyah,Tafsir,</br> Tilaawah/Qiraa'ah, 8.Adab <br/><br/>Note: class days are negotiable </br></br>Once Weekly: 12,000 </br>Twice Weekly: 20,000 </br>Four times Weekly: 28,000 </br>Monthly: 36,000",
       imageUrl: "https://i.postimg.cc/RVyytphd/zully-modified.png",
       imageWidth: 100,
       imageHeight: 100,
