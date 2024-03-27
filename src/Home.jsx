@@ -366,7 +366,7 @@ function Home() {
             </div>
             <div className="bg-[#f2878c] w-[29rem] rounded text-center p-2 font-semibold">
               <a href="#classdays">
-                Class Days: Saturdays and Sundays.Time: 8:00am-10:00am
+                Class Days: Saturdays and Sundays.Time: 8:00am-10:30am
               </a>
             </div>
             
