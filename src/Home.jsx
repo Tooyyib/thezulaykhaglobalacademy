@@ -1,4 +1,5 @@
 // shared components from scr folder
+
 import Container from "./shared/container/Container"
 
 
@@ -12,9 +13,9 @@ import reverts from "../src/images/reverts.jpeg";
 import heroes from "../src/images/heroes.jpeg";
 import ramahif from "../src/images/ramahif.jpeg";
 import greeter from "../src/images/greeter.jpg"
+ 
 
-// import { ToastContainer, toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
+
 
 import Swal from 'sweetalert2'
 
@@ -24,9 +25,10 @@ import Swal from 'sweetalert2'
 import { Carousel } from "@material-tailwind/react";
 
 
+
+
 function Home() {
 
-  // const notify = () => toast("please call or message this number!");
 
   const policy = () =>{
 
@@ -141,10 +143,8 @@ function Home() {
       </div> 
 
 
-      
-
+ 
       <div className="text-center mt-[2rem]">
-      {/* <ToastContainer /> */}
         <div className="text-[1rem]">
           for muslim sisters,wives,mothers and kids.
         </div>
@@ -179,7 +179,7 @@ function Home() {
             <div className="p-2">
             <div className="p-3 font-extrabold"><p className="text-[#E99625]">monthly</p><p>N12,000</p><p className="text-[#E99625]">semester</p><p>N42,000</p><p>sat and sun</p></div>
               <div>
-                <button  className="bg-[#441d49] animate-bounce focus:animate-none hover:animate-none hover:opacity-50  border-dotted border-2 py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
+                <button className="bg-[#441d49] animate-bounce focus:animate-none hover:animate-none hover:opacity-50  border-dotted border-2 py-2 px-2 rounded font-bold text-[#fdfdfd] hover:-translate-y-1 duration-700 text-[1rem]">
                 <a href="http://wa.me/2348133128088">08133128088</a>
                 </button>
               </div>
@@ -280,6 +280,7 @@ function Home() {
         </div>
       </div>
       
+
       
       {/* class days   from 278 - 290*/}
       <div className="flex justify-center my-[2rem] ">
@@ -305,8 +306,7 @@ function Home() {
 {/* carousel */}
 <Carousel className="rounded-xl w-[30rem]">
       <img
-        src={greeter
-        }
+        src={greeter}
         alt="greeter"
         className="h-full w-full object-cover"
         

@@ -26,7 +26,7 @@ const Header = () => {
       <img
         src={zully}
         alt="zully"
-        className="sm:h-[3rem] w-[3rem] animate-bounce rounded-full lg:mx-auto  focus:animate-none hover:animate-none "
+        className="sm:h-[3rem] w-[3rem] animate-bounce rounded-full lg:mx-auto  focus:animate-none hover:animate-none"
       />
 
       <div>
