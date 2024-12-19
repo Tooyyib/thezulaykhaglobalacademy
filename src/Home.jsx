@@ -74,7 +74,7 @@ function Home() {
 
     Swal.fire({
       title: "GRANDMAS CLASS",
-      html: "Hifz,Khattu,Imla,Tajweed,Hadeeth,Arabiyyah,Tilaawah/Qiraa'ah,Adab,Aqeedah <br/><br/>Monthly: 12,000 <br/><br/><strong>BUSY WIVES CLASS</strong></br></br>Hifz,Tilaawah,Tajweed",
+      html: "Hifz,Khattu,Imla,Tajweed,Hadeeth,Arabiyyah,Tilaawah/ <br />Qiraa'ah,Adab,Aqeedah <br/><br/>Monthly: 12,000 <br/><br/><strong>BUSY WIVES CLASS</strong></br></br>Hifz,Tilaawah,Tajweed",
       imageUrl: "https://i.postimg.cc/RVyytphd/zully-modified.png",
       imageWidth: 100,
       imageHeight: 100,

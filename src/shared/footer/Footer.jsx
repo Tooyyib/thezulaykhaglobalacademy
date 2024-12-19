@@ -105,7 +105,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
-    
+  
   </div>
   <div className="text-center p-10 fonts-semibold bg-[#e99625] text-[0.8rem] text-[#fdf7fb]">Copyright © {`${year}`}.
    All rights reserved | Zulaykha_Global_Academy <br />
