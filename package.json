@@ -1,5 +1,4 @@
 {
-  "homepage": "https://tooyyib.github.io/thezulaykhaglobalacademy",
   "name": "thezulaykhaglobalacademy",
   "private": true,
   "version": "0.0.0",
@@ -21,7 +20,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
-    "react-responsive-carousel": "^3.2.23",
+    "react-responsive-carousel": "^3.2.23", 
     "react-router-dom": "^6.22.0",
     "react-toastify": "^10.0.5",
     "react-toasting": "^1.0.4",
