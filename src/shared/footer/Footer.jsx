@@ -107,7 +107,7 @@ const Footer = () => {
     </div>
   
   </div>
-  <div className="text-center p-10 fonts-semibold bg-[#e99625] text-[0.8rem] text-[#fdf7fb]">Copyright © {`${year}`}.
+  <div className="text-center p-10 fonts-semibold bg-[#e99625] text-[0.8rem] text-[#fdf7fb]">Copyright © {`${year}`}
    All rights reserved | Zulaykha_Global_Academy <br />
   <span className="bg-black-500 font-bold">{`${day} - ${month +1} - ${year} `}</span></div>
 </>
