@@ -138,7 +138,7 @@ function Home() {
         </div>
         <div className="lg:text-[1.9rem] lg:my-[1rem] sm:text-sm">ONLINE AND PHYSICAL CLASSES</div>
         <div className="lg:text-[1rem] sm:text-sm flex justify-center">
-          <div className="w-[20rem] bg-yellow-300 rounded">...building unique and pious women</div>
+          <div className="w-[20rem] bg-yellow-200 rounded">...building unique and pious women</div>
         </div>
       </div> 
 
