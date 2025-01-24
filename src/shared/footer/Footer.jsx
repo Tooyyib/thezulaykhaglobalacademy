@@ -46,7 +46,7 @@ const Footer = () => {
     <div className="text-[#e99625] my-[0.7rem]">
       <div className="text-[#ffff]">Location</div>
       <div>Lagos</div>
-      <div>35,Arobadade,after sawmill,Bariga</div>
+      <div>23,Olowu,Bariga</div>
     </div>
     <div className="text-[#e99625] my-[0.7rem]">
       <div className="text-[#ffff]">Connect</div>

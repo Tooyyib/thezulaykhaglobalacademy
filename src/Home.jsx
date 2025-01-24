@@ -13,7 +13,7 @@ import reverts from "../src/images/reverts.jpeg";
 import heroes from "../src/images/heroes.jpeg";
 import ramahif from "../src/images/ramahif.jpeg";
 import greeter from "../src/images/greeter.jpg"
- 
+
 
 
 
@@ -137,8 +137,8 @@ function Home() {
           THE ZULAYKHA GLOBAL ACADEMY
         </div>
         <div className="lg:text-[1.9rem] lg:my-[1rem] sm:text-sm">ONLINE AND PHYSICAL CLASSES</div>
-        <div className="lg:text-[1rem] sm:text-sm">
-          ...building unique and pious women
+        <div className="lg:text-[1rem] sm:text-sm flex justify-center">
+          <div className="w-[20rem] bg-yellow-300">...building unique and pious women</div>
         </div>
       </div> 
 
